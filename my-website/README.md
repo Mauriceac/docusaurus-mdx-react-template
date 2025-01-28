@@ -1,5 +1,7 @@
 # Website
 
+> **Note:** This is a mock `README.md` file. To view the API reference guide tutorial, go to [../README.md](../README.md).
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
