@@ -1,9 +1,9 @@
 # How to use MDX & React to automate content reuse in Docusaurus
 
-With Docusaurus's built-in MDX and React capabilities, you can automate content reuse. For example, not only can you reuse content across multiple files, you can also filter and automate content use.
+With Docusaurus's built-in MDX and React capabilities, you can automate content reuse. For example, not only can you reuse content across multiple files, you can also filter and automate data obtained from structured content.
 
 ## Prerequisites
-- Docusaurus installed on your computer. We used the docusaurus-template to build the examples in this tutorial.
+- Docusaurus installed on your computer. We used the [docusaurus-template](https://github.com/VasylynaBurger/docusaurus-template) to build the examples in this tutorial.
 - A code editor, such as VS Code. You'll need to use the code editor throughout the entire tutorial.
 
 ## Example 1: How to import content using MDX
