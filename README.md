@@ -53,11 +53,11 @@ MDX files:
 
 Markdown file:
 
-- [`my-website/docs/MDX-REACT/example_01.md`](my-website/docs/MDX-REACT/example_01.md)
+- [`my-website/docs/MDX-ReactT/example_01.md`](my-website/docs/MDX-React/example_01.md)
 
 Live demo:
 
-- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_01`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_01)
+- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_01`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_01)
 
 ### Step 1: Create MDX files to host reusable content. 
 
@@ -156,7 +156,7 @@ Markdown file
 
 Live demo
 
-- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_02`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_02)
+- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_02`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_02)
 
 ### Step 1: Create an MDX file with variables
 
@@ -258,7 +258,7 @@ Markdown file
 
 Live demo
 
-- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_03`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_03)
+- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_03`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_03)
 
 ### Step 1: Create a JSON file to host reusable content
 
@@ -361,11 +361,11 @@ JSON file
 
 Markdown file
 
-- [my-website/docs/mdxReact/example_04.md](my-website/docs/mdxReact/example_04.md)
+- [my-website/docs/MDX-React/example_04.md](my-website/docs/MDX-React/example_04.md)
 
 Live demo
 
-- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_04`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/mdxReact/example_04)
+- [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_04`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_04)
 
 ### Step 1: Prepare Your JSON File
 
