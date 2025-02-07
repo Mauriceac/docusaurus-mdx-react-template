@@ -4,7 +4,7 @@
 - [Prerequisites](#prerequisites)
 - [Example 1: How to import content using MDX](#example-1-how-to-import-content-using-mdx)
   - [Sample files](#sample-files)
-  - [Step 1: Create MDX files to host reusable content.](#step-1-create-mdx-files-to-host-reusable-content)
+  - [Step 1: Create MDX files to host reusable content](#step-1-create-mdx-files-to-host-reusable-content)
   - [Step 2: Import MDX content into Markdown files](#step-2-import-mdx-content-into-markdown-files)
   - [Step 3: Run Docusaurus](#step-3-run-docusaurus)
 - [Example 2: How to use variables within reusable content](#example-2-how-to-use-variables-within-reusable-content)
@@ -53,13 +53,13 @@ MDX files:
 
 Markdown file:
 
-- [`my-website/docs/MDX-ReactT/example_01.md`](my-website/docs/MDX-React/example_01.md)
+- [`my-website/docs/MDX-React/example_01.md`](my-website/docs/MDX-React/example_01.md)
 
 Live demo:
 
 - [`https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_01`](https://mauriceac.github.io/docusaurus-mdx-react-template/docs/MDX-React/example_01)
 
-### Step 1: Create MDX files to host reusable content. 
+### Step 1: Create MDX files to host reusable content
 
 1. Choose a folder where you want to store the MDX files that will contain the original reusable content.
 
@@ -152,7 +152,7 @@ MDX file
 
 Markdown file
 
-- [`my-website/docs/MDX-REACT/example_02.md`](my-website/docs/MDX-REACT/example_02.md)
+- [`my-website/docs/MDX-React/example_02.md`](my-website/docs/MDX-React/example_02.md)
 
 Live demo
 
@@ -254,7 +254,7 @@ JSON file
 
 Markdown file
 
-- [`my-website/docs/MDX-REACT/example_03.md`](my-website/docs/MDX-REACT/example_03.md)
+- [`my-website/docs/MDX-React/example_03.md`](my-website/docs/MDX-React/example_03.md)
 
 Live demo
 
@@ -268,7 +268,7 @@ Live demo
 
 2. Create the JSON file.
 
-   For example, create a file named `accessRoles.json`.
+   For example, create a file named [`accessRoles.json`](my-website/docs/reusable-content/accessRoles.json).
 
 3. Place the structured content in the JSON file.
 
@@ -466,4 +466,4 @@ For example, [`products.json`](my-website/docs/reusable-content/products.json):
 
 3. With the web browser, go to your Docusaurus site and navigate to the document you just updated to see the imported JSON content.
 
-You should now see a table displaying the products from the `groceries` category.
+   You should now see a table displaying the products from the `groceries` category.
