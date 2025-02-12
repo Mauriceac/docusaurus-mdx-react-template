@@ -83,10 +83,26 @@ Live demo:
 
 1. Open or create a Markdown file in your Docusaurus project.
 
-2. In your markdown file, add import statements that direct to the reusable content.
+2. In your markdown file, add import statements that indicate the relative path to the reusable content.
 
-    For example:  
-
+    For example, if your Markdown file is in the `docs/MDX-React` folder and your MDX files are in the `docs/reusable-content` folder, use `../` in the path to go down one folder level:
+    
+    _Folder structure example:_
+    ```plaintext
+      my-website/
+      ├── blog/
+      ├── docs/
+      │   ├── intro.md
+      │   ├── MDX-React/
+      │   │   ├── example_01.md
+      │   └── reusable-content/
+      │       ├── _leo.mdx
+      │       ├── _loremIpsum.mdx
+      ├── docusaurus.config.js
+      ├── README.md
+      ├── sidebars.js
+    ```
+    _Markdown file example (/docs/MDX-React/example\_01.md):_
     ```jsx
     // ...existing code...
 
@@ -96,9 +112,9 @@ Live demo:
     // ...existing code...
     ```
 
-    > **Notes:**
+    > **Note:**
     > - The import variable name must begin with a capital letter. For example, `LoremIpsum`, and not `loremIpsum`.
-    > - Ensure the paths are relative from the Markdown to the MDX files. For example, use `../` in the path to go down one folder level.
+   
 
 3. Use placeholders to position the imported content in your Markdown file: `<[IMPORT_VARIABLE] />`
 
@@ -206,6 +222,9 @@ Live demo
 
    ```
 
+   > **Note:**
+   > Use the relative path to the MDX file. For an example, go to [step 2 of Example 1](#step-2-import-mdx-content-into-markdown-files).
+
 3. Render the imported content and pass the variables as props.
 
    For example:
@@ -309,6 +328,9 @@ Live demo
    // ...existing code...
    ```
 
+   > **Note:**
+   > Use the relative path to the JSON file. For an example, go to [step 2 of Example 1](#step-2-import-mdx-content-into-markdown-files).
+
 3. Render the imported content within your Markdown file using a React component.
 
    For example:
@@ -408,6 +430,9 @@ For example, [`products.json`](my-website/docs/reusable-content/products.json):
 
    //...existing code...
    ```
+
+   > **Note:**
+   > Use the relative path to the JSON file. For an example, go to [step 2 of Example 1](#step-2-import-mdx-content-into-markdown-files).
 
 3. Use React components to render the imported data as a table.
 
