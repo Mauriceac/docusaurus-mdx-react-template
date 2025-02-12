@@ -85,7 +85,7 @@ Live demo:
 
 2. In your markdown file, add import statements that indicate the relative path to the reusable content.
 
-    For example, if your Markdown file is in the `docs/MDX-React` folder and your MDX files are in the `docs/reusable-content` folder, use `../` in the path to go down one folder level:
+    For example, if your Markdown file is in the `docs/MDX-React` folder and your MDX files are in the `docs/reusable-content` folder, use `../` in the import statement path to go down one folder level. But, for example, if your `/reusable-content` folder is in the root of the Docusaurus project, you would have to go down two folder levels and use `../../` instead.
     
     _Folder structure example:_
     ```plaintext
